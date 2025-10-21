@@ -1,0 +1,56 @@
+.cardPic {
+    width: 70px;
+    height: 25px;
+    margin: 0 5px 10px;
+    background: rgb(175, 215, 172);
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+.containerCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background: rgb(116, 116, 222);
+    margin: 3px;
+    width: 410px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+
+/* Карты */
+.mir {
+    background-image: url("./pic/mir.png");
+    background-size: 100% 100%;
+}
+
+.americanExpress {
+    background-image: url("./pic/Maestro.png");
+    background-size: 100% 100%;
+}
+
+.visa {
+    background-image: url("./pic/visa.png");
+    background-size: 100% 100%;
+}
+
+.masterCard {
+    background-image: url("./pic/MasterCard.png");
+    background-size: 100% 100%;
+}
+
+.discover {
+    background-image: url("./pic/Discover.png");
+    background-size: 100% 100%;
+}
+
+
+/* valid/invalid */
+.valid {
+    border: 5px solid green;
+}
+
+.invalid {
+    border: 5px solid red;
+}
